@@ -13,6 +13,14 @@ public float sub(float paramNum1, float paramNum2);
       res = paramNum1 - paramNum2;
       return res;
 }
-public float mul(float paramNum1, float paramNum2);
-public float div(float paramNum1, float paramNum2);
+public float mul(float paramNum1, float paramNum2)
+{
+      res = paramNum1 * paramNum2;
+      return res;
+}
+public float div(float paramNum1, float paramNum2)
+{
+      res = paramNum1 / paramNum2;
+      return res;
+}
 }
