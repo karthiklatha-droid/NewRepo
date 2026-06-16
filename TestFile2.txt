@@ -3,8 +3,16 @@ class Arithmetix()
 public float num1;
 public float num2;
 private float res;
-public float add(float paramNum1, float paramNum2);
+public float add(float paramNum1, float paramNum2)
+{
+      res = paramNum1 + paramNum2;
+      return res;
+}
 public float sub(float paramNum1, float paramNum2);
+{
+      res = paramNum1 - paramNum2;
+      return res;
+}
 public float mul(float paramNum1, float paramNum2);
 public float div(float paramNum1, float paramNum2);
 }
